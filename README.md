@@ -1,3 +1,3 @@
 # Code1
-A Computer Science module within B.A. Games & Immersive Media.
+**_A Computer Science module within B.A. Games & Immersive Media._**
 This file will be built upon throughout the course.
