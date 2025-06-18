@@ -1,3 +1,5 @@
+# Educational List
+
 Find out what the different software might be used for
 
 - Visual Studio Code: is an Intergrated Programming Language.
