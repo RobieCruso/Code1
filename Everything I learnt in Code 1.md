@@ -9,3 +9,8 @@ Find out what the different software might be used for
 - Git Graph: Visualises what Git is up to.
 - TypeScript (tsc): Essentially JavaScript with user-defined types.
 - Markdown: is a file type (used by Wikipedia and GitHub)
+
+
+
+__18/06/2025__
+- Created the Code1 repository and added some .md (Markdown) files / got a grasp of of how GitHub works.
