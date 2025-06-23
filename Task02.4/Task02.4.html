@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task02.4.css" />
+    <title>Task02.4</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1><em>Formatting Tags</em></h1></legend>
+        <ul>
+            <li><mark>This is marked text.</mark></li>
+            <li><u>This is unerlined text.</u></li>
+            <li><em>This is emphasised text.</em></li>
+            <li><cite>This is cited text.</cite></li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend><h1><em>Animal Cards</em></h1></legend>
+        <div id="frame">
+            <div class="table">
+                <img src="schafe.jpeg" class="card" height="200px" width="200px" onclick="playMe('sheep.wav');">
+                <img src="tiger.jpeg" class="card" height="200px" width="200px" onclick="playMe('tiger.wav');">
+                <img src="hund.png" class="card" height="200px" width="200px" onclick="playMe('dog.wav');">
+                <img src="katze.jpeg" class="card" height="200px" width="200px" onclick="playMe('cat.wav');">
+                <img src="kuh.jpeg" class="card" height="200px" width="200px" onclick="playMe('cow.wav');">
+                <img src="ente.jpeg" class="card" height="200px" width="200px" onclick="playMe('duck.wav');">
+            </div>
+        </div>
+        <script type="text/javascript">
+            function playMe(sound) {
+                var audio = new Audio('audio/' + sound);
+                audio.play();
+            }
+        </script>
+    </fieldset>
+</body>
+</html>
